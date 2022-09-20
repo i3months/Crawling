@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
-# 에러메세지 없애기 (불필요)
+# 불필요한 에러메세지 없애기 
 chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
 # 크롬드라이버 매너저를 통해 드라이버를 설치, 서비스를 만들어낸다
