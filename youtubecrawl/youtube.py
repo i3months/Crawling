@@ -29,9 +29,6 @@ keyword = pyautogui.prompt("검색어를 입력해주세요.")
 
 url = f"https://www.youtube.com/results?sp=mAEB&search_query={keyword}"
 
-driver.implicitly_wait(10)
-driver.maximize_window()
-driver.get(url)
 
 # 무한스크롤 시 끝없이 내려감. 조금만..
 
